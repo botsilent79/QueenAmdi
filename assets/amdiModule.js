@@ -14,7 +14,7 @@
 * @author BlackAmda <https://github.com/BlackAmda>
 * @description A WhatsApp based 3ʳᵈ party application that provide many services with a real-time automated conversational experience
 * @link <https://github.com/BlackAmda/QueenAmdi>
-* @version 4.0.2
+* @version 4.0.3
 * @file  amdiModule.js - QueenAmdi bot module and Web WA connection
 
 © 2022 Black Amda, ANTECH. All rights reserved.
@@ -22,11 +22,16 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.*/
 
 const amdiWA = require('queen_amdi_core/dist/amdiCore');
+const { qrDisplayDL } = require('queen_amdi_core/dist/qrDisplay');
+const amdiWEB = require('queen_amdi_core/qr_code/amdiWEB');
 
 amdiWA.start()
 
 const events = async () => {
     const WASocket = await amdiWA.ev.on("open.connection");
+
+    await qrDisplayDL();
+    await amdiWEB.appObj();
     
     amdiWA.ev.on("connection.update", WASocket);
     amdiWA.ev.on("auth.update", WASocket);
