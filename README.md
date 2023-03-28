@@ -23,7 +23,15 @@
 
 ### You can join our Beta Testing WhatsApp Group by this invite link
 
-**[» Join beta test group](https://chat.whatsapp.com/LhWHB9gftfwIv29C4etUHH)**
+**[» Join beta test group](https://chat.whatsapp.com/Kk9FcrtGYzX1xzky4b1aCJ)**
+
+### For heroku deployers: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+**[» See heroku deploy instructions](https://amdaniwasa.com/#install)**
+
+**[» See other deploy methods](https://amdaniwasa.com/#install)**
+
+**[» Queen Amdi announcement group](https://chat.whatsapp.com/InYoHlt2aURC3Rie3l8ulR)**
 
 ## 🐝 Queen Amdi Team - A.N.Tech *[ Since 2016 ]*
 
